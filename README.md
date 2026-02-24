@@ -3,7 +3,6 @@ The **Personal Diary Management System** is a desktop application developed usin
 
 Each user can create an account, log in, and access their **private diary**, ensuring data privacy and organization.
 
----
 
 ## Objectives
 
@@ -13,7 +12,7 @@ Each user can create an account, log in, and access their **private diary**, ens
 * Enable multi-user support
 * Offer a simple and user-friendly interface
 
----
+
 
 ## Technologies Used
 
@@ -24,11 +23,11 @@ Each user can create an account, log in, and access their **private diary**, ens
 | JDBC         | Database connectivity   |
 | Eclipse IDE  | Development environment |
 
----
+
 
 ##  Features
 
-###  User Authentication
+## User Authentication
 
 ✔ User Registration
 ✔ Login System
@@ -58,30 +57,21 @@ diarydb
 * Diary → Change Password
 * Diary → Logout → Login
 
-Navigation is handled using:
-
-```java
-new PageName();
-dispose();
-```
-
----
-
 ##  How to Run the Project
 
-### Step 1: Import Project
+## Step 1: Import Project
 
 1. Open Eclipse
 2. File → Import → Existing Projects into Workspace
 3. Select project folder
 
-### Step 2: Setup Database
+## Step 2: Setup Database
 
 1. Open MySQL Workbench
 2. Run provided SQL scripts
 3. Ensure database name is `diarydb`
 
-### Step 3: Configure Database Connection
+## Step 3: Configure Database Connection
 
 Update if needed:
 
@@ -91,23 +81,16 @@ username: root
 password: root
 ```
 
-### Step 4: Add MySQL Connector
+## Step 4: Add MySQL Connector
 
 * Add **mysql-connector-j.jar** to project build path
 
-### Step 5: Run Application
+## Step 5: Run Application
 
 Run:
 
-```
-frame1.java
-```
-
----
-
 ##  Project Structure
 
-```
 Dairy/
 │
 ├── frame1.java           (Login Page)
@@ -115,5 +98,4 @@ Dairy/
 ├── DiaryDBGU.java        (Diary Dashboard)
 ├── ChangePassword.java   (Password Change)
 ├── ModernMessageBox.java (Custom Dialogs)
-```
 
