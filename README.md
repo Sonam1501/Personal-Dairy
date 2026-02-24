@@ -88,14 +88,3 @@ password: root
 ## Step 5: Run Application
 
 Run:
-
-##  Project Structure
-
-Dairy/
-│
-├── frame1.java           (Login Page)
-├── Register.java         (User Registration)
-├── DiaryDBGU.java        (Diary Dashboard)
-├── ChangePassword.java   (Password Change)
-├── ModernMessageBox.java (Custom Dialogs)
-
